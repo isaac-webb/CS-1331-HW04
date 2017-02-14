@@ -54,7 +54,6 @@ public class MartianHabitat {
         return defenseCount > 0;
     }
 
-    // TODO: Ask about the behaviour when a defense is already destroyed, and
     // what "different factor" means.
     /**
       * Goes through all of the MartianHabitat's MartianDefenses and damages

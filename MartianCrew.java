@@ -54,8 +54,9 @@ public class MartianCrew {
         boolean astKilled = false;
 
         for (Astronaut astronaut : astronauts) {
-            if (astronaut.getIsAlive()) {
-                astKilled = astKilled || astronaut.injure(rand.nextInt(50));
+            if (astronaut.getIsAlive() && astronaut.injure(rand.nextInt(50))) {
+                astKilled = true;
+                crewCount--;
             }
         }
 

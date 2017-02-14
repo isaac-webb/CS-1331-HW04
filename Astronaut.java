@@ -38,7 +38,7 @@ public class Astronaut {
       * @param plant The plant to increment the Astronaut's health with
       */
     public void eat(MartianPlant plant) {
-        health += plant.getNutrients();
+        health += (int) plant.getNutrients();
     }
 
     /**

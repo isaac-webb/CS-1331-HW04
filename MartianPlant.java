@@ -77,10 +77,10 @@ public class MartianPlant {
       *
       * @return The hash for the MartianPlant (plant number)
       */
-    @Override
-    public int hashCode() {
-        return plantNum;
-    }
+    // @Override
+    // public int hashCode() {
+    //     return plantNum;
+    // }
 
     /**
       * Returns the MartianPlant's nutrients.
