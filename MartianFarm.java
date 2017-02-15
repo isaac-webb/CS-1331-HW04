@@ -7,6 +7,7 @@ import java.util.Random;
   * MartianPlants.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public class MartianFarm {
     private MartianPlant[] plants;

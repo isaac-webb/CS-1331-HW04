@@ -7,6 +7,7 @@ import java.util.Random;
   * MartianDefenses.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public class MartianHabitat {
     private MartianDefense[] defenses;

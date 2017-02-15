@@ -6,6 +6,7 @@
   * easier processing.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public enum Location {
     NORTH, SOUTH, EAST, WEST

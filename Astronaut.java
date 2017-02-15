@@ -5,6 +5,7 @@
   * either dead or alive.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public class Astronaut {
     private String name;

@@ -6,6 +6,7 @@ import java.util.Random;
   * Defines a MartianCrew, which is just an array of Astronauts.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public class MartianCrew {
     private Astronaut[] astronauts;
@@ -13,7 +14,7 @@ public class MartianCrew {
 
     /**
       * Creates a MartianCrew with the names of the Astronauts as inputs. Any
-      *Astronauts without names will be named "Anonymous."
+      * Astronauts without names will be named "Anonymous."
       *
       * @param names The names of the Astronauts to be created
       */
@@ -45,7 +46,7 @@ public class MartianCrew {
 
     /**
       * Iterates through the MartianCrew and damages each Astronaut randomly by
-      *an integer 0-50 (exclusive), returning true if someone was killed
+      * an integer 0-50 (exclusive), returning true if someone was killed
       *
       * @return Whether or not any Astronauts were killed
       */

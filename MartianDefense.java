@@ -5,6 +5,7 @@
   * defense direction, and can deal with being damaged, repaired, etc.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public class MartianDefense {
     private int defenseRating;

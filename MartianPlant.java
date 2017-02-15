@@ -7,6 +7,7 @@ import java.util.Random;
   * nutrient values and identification numbers.
   *
   * @author iwebb6
+  * @version 1.0
   */
 public class MartianPlant {
     // Create a static variable to track what the next plant number should be
@@ -77,10 +78,10 @@ public class MartianPlant {
       *
       * @return The hash for the MartianPlant (plant number)
       */
-    // @Override
-    // public int hashCode() {
-    //     return plantNum;
-    // }
+    @Override
+    public int hashCode() {
+        return plantNum;
+    }
 
     /**
       * Returns the MartianPlant's nutrients.
